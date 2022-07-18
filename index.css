@@ -14,7 +14,7 @@ body {
 }
 .main-nav {
     list-style-type: none;
-    /* visibility: hidden; */
+  
     display:none;
 }
 .nav-links,
@@ -27,16 +27,16 @@ body {
   .nav-toggle {
     cursor: pointer;
     border: 0;
-    width: 3rem;
-    height: 3rem; 
+    width: 2.5rem;
+    height: 2.5rem; 
     padding: 0;
     border-radius: 50%; 
     background: #072a2d;
     color:  #EAEBEC;
     transition: opacity 250ms ease;
     position: absolute;
-    top: 10px;
-    right: 20px;;
+    top: 3px;
+    right: 5px;
   }
 
 .nav-toggle:focus,
@@ -56,7 +56,8 @@ body {
 
 .hamburger {
     width: 50%;
-    position: relative;
+    position: relative; 
+    
   }
 
   .hamburger,
@@ -75,8 +76,9 @@ body {
     width: 100%;
   }
 
+  
   .hamburger::before {
-    transform: translateY(-6px);
+    transform: translateY(-7px);
   }
 
   .hamburger::after {
